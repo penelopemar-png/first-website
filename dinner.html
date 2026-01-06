@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href= "./css/main.css">
+       
+        <link rel="stylesheet" href="./css/dinner.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <script src="./js/main.js"></script> 
+
+        
+
+    
+ <body>
+    <div id = "wrapper">
+        <header>
+            <div id = "top-logo">
+            <a href="home.html"><img src="./images/LOGOFINAL2.jpg" alt=""></a></div>
+            <p class = "colored-text"><img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> Ξενοδοχείο Boutique <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> </p>
+             <nav class="main-menu">
+                    <a  href="home.html">ΑΡΧΙΚΗ</a>
+                    <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                    <a class = "active" href="dinner.html">ΔΕΙΠΝΟ</a>
+                    <a  href="./prices.html">ΤΙΜΕΣ</a>
+                    <a  href="./reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                    <a  href="./contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+             </nav>
+             <nav class = "dropdown-menu">
+                <span onclick = "getDropDownMenu()">☰</span>
+            </nav>
+            <nav class = "hidden-menu">
+                <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+                <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="prices.html">ΤΙΜΕΣ</a>
+                <a href="reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+
+        </header>
+
+ <main>
+
+        <section class = "two-boxes">
+            <div>
+                <h2>ΔΕΙΠΝΟ</h2>
+                <p class ="colored-text">Εστιατόριο και room service</p>
+                <p class="grey"> Το Avenue Bistro καλωσορίζει τους καλεσμένους του σε μια μοναδική γαστρονομική εμπειρία το πρωί αλλά και το βράδυ. Στο ισόγειο του ξενοδοχείου, σε έναν φωτεινό και φιλικό χώρο, προσφέρουμε εξαιρετικά πιάτα βασισμένα στη διεθνή και τη Μεσογειακή κουζίνα. Συνοδέψτε  έναν απολαυστικό καφέ με ένα αλμυρό ή γλυκό σνακ και αφεθείτε στην απαράμιλλη φιλοξενία του Avenue Bistro.</p>
+                <p class="grey">Κάθε πρωί στο εστιατόριο προσφέρουμε ένα πλούσιο αμερικάνικο μπουφέ, στο ισόγειο του ξενοδοχείου. Μέσα σε μια φιλική και φωτεινή ατμόσφαιρα θα βρείτε αλμυρές και γλυκές προτάσεις, καφέ και χυμό για να ξεκινήσετε τη μέρα σας δυνατά, με την καλύτερη διάθεση.</p>
+            </div>
+            <div>
+                <img src="./images/dinner1.jpg" alt="">
+            </div>
+       </section>
+        <section class ="two-images">
+                 <img src="./images/dinner2.jpg" alt="">
+                <img src="./images/dinner3.jpg" alt="">
+
+
+       </section>
+
+</main>
+    <footer>
+        <div>
+            <img src="./images/LOGOFINAL2.jpg" alt="">
+            <p>Ακαδημίας 24, 106 71, Αθήνα <br>
+            Διατηρούνται όλα τα δικαιώματα 2023</p>
+        </div>
+        <div>
+            <h3>Χρήσιμα λινκ</h3>
+            <a href="#">Πληροφορίες</a>
+            <a href="#">Επικοινωνία</a>
+            <a href="#">Όροι χρήσης</a>
+            <a href="#">Ιδιωτικότητα</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>εγγραφείτε για  να μαθαίνετε τα τελευταία νέα μας.</p>
+            <form id = "newsletter">
+                <input type="email" value = "" placeholder="e-mail">
+                <input type="submit" value="Αποστολή">
+            </form>
+        </div> 
+    </footer>
+    <body>
+        
+
+    </html>

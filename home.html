@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<script src="./js/main.js"></script> 
+
+<style>
+   
+section.three-images > img{
+    cursor: pointer;
+   
+}
+ div.shade {
+    position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        background-color: rgba(29, 29, 29, 0.514);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.shade > img {
+        height: 90%;
+        width: auto;
+    }
+</style>
+
+<script>
+function getLightBox(imageSrc) {
+    let div = 
+    document.createElement("div");
+    div.className = "shade";
+    div.addEventListener("click", removeShade);
+    document.body.appendChild(div);
+
+    let img = 
+    document.createElement("img");
+    img.setAttribute("src", imageSrc);
+    div.appendChild(img);
+
+    function removeShade() {
+        document.body.removeChild(div);
+    }
+}
+</script>
+
+
+       
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <div id = "top-logo">
+                <a href="home.html"><img src="./images/LOGOFINAL2.jpg" alt=""></a>
+            </div>
+            <p class = "colored-text"><img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/>
+                 Ξενοδοχείο Boutique <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/>
+                
+            </p>
+            <nav class="main-menu">
+                <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+                <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="./prices.html">ΤΙΜΕΣ</a>
+                <a href="./reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="./contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+
+            <nav class = "dropdown-menu">
+                <span onclick = "getDropDownMenu()">☰</span>
+            </nav>
+
+            <nav class = "hidden-menu">
+                <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+                <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="prices.html">ΤΙΜΕΣ</a>
+                <a href="reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <section class = "full-width-image">
+                <img src="./images/home.jpg">
+            </section>
+
+            <section class = "two-texts">
+                <div>
+                    <h2>ΞΕΝΟΔΟΧΕΙΟ<br>MAGNIUS</h2>
+                    <p class = "colored-text">Απολαύστε τη διαμονή σας</p>
+                </div>
+                <div>
+                    <p class="grey">Το MAGNIUS HOTELS & SPA βρισκεται στο κέντρο της Αθήνας στην περιοχή της Ομόνοιας και απέχει από την Πλατεία Συντάγματος 1,4 χλμ  και από τον Αρχαιολογικό Χώρο της Ακροπόλεως 2,3 χλμ. Παρέχονται 24ωρη ρεσεψιόν και δωρεάν WiFi σε όλους τους χώρους μας.
+
+                        Τα δημοφιλή σημεία ενδιαφέροντος κοντά στο κατάλυμα  είναι το Εθνικό Αρχαιολογικό Μουσείο μόλις στα 800 μέτρα, η πλατεία Μοναστηρακίου στα 1,4 χλμ και η περίφημη Πλάκα  στα 1,7 χλμ.
+                        </p>
+                    <p class="grey">Η στάση μετρό και ηλεκτρικού τρένου  ΟΜΟΝΟΙΑ (κόκκινη γραμμη) βρίσκεται στα 444 μέτρα ενώ ο Κεντρικός Σιδηροδρομικός σταθμός απέχει μόλις 1 χλμ.Το πλησιέστερο αεροδρόμιο είναι το Ελευθέριος Βενιζέλος σε απόσταση 34 χλμ.</p>
+                </div>
+            </section>
+
+
+            <section class = "three-images">
+                <img src="./images/home-a.jpg" alt="" onclick="getLightBox('./images/home-a.jpg.')">
+                <img src="./images/home-b.jpg" alt=""onclick="getLightBox('./images/home-b.jpg.')" >
+                <img src="./images/home-c.jpg" alt=""onclick="getLightBox('./images/home-c.jpg.')" >
+            </section>
+
+
+            <section class = "reservation">
+                <h2>Κάντε κράτηση</h2>
+                <p class = "colored-text">Τα αιτήματα ελέγχονται καθημερινά</p>
+                <a href="file:///C:/Users/pmark/OneDrive/%CE%A5%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CF%84%CE%AE%CF%82/%CF%84%CF%83%CE%B1%CF%81%CE%B1%CF%82%20%CE%B4%CE%B9%CE%BA%CE%B1%20%CF%84%CE%BF%CF%85/html(3)/site/rooms.html">ΚΛΕΙΣΤΕ ΔΩΜΑΤΙΟ</a>
+            </section>
+
+        </main>
+
+        <footer>
+            <div>
+                <img src="./images/LOGOFINAL2.jpg" alt="">
+                <p>Ακαδημίας 24, 106 71, Αθήνα <br>
+                Διατηρούνται όλα τα δικαιώματα 2023</p>
+            </div>
+            <div>
+                <h3>Χρήσιμα links</h3>
+                <a href="#">Πληροφορίες</a>
+                <a href="#">Επικοινωνία</a>
+                <a href="#">Όροι χρήσης</a>
+                <a href="#">Ιδιωτικότητα</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p> εγγραφείτε για  να μαθαίνετε τα τελευταία νέα μας.</p>
+                <form id = "newsletter">
+                    <input type="email" value = "" placeholder="e-mail">
+                    <input type="submit" value="Αποστολή">
+                </form>
+            </div>
+        </footer>
+    
+</body>
+</html>

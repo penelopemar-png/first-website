@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "./css/main.css">
+    <link rel="stylesheet" href="./css/reservations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/main.js"></script>
+
+    <title>Document</title>
+
+
+</head>
+  <body>
+
+    <div id = "wrapper">
+        <header>
+            <div id = "top-logo">
+                <a href="home.html"><img src="./images/LOGOFINAL2.jpg" alt=""></a>
+            </div>
+            <p class = "colored-text"> <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> Ξενοδοχείο Boutique <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/></p>
+             <nav class="main-menu">
+                    <a  href="home.html">ΑΡΧΙΚΗ</a>
+                    <a  href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                    <a  href="dinner.html">ΔΕΙΠΝΟ</a>
+                    <a  href="./prices.html">ΤΙΜΕΣ</a>
+                    <a class= "active" href="./reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                    <a  href="./contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+             </nav>
+             <nav class = "dropdown-menu">
+                <span onclick = "getDropDownMenu()">☰</span>
+            </nav>
+            <nav class = "hidden-menu">
+                <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+                <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="prices.html">ΤΙΜΕΣ</a>
+                <a href="reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+        </header>
+        <main>
+            <section class = "two-boxes">
+                <div>
+                    <h2>ΚΑΝΤΕ ΚΡΑΤΗΣΗ</h2>
+                    <p class = "colored-text">τα αιτηματα ελεγχονται καθημερινα</p>
+                    <p class="grey">Εγγύηση καλύτερης τιμής </p>
+                    <p class="grey">Εξοικονομήστε χρήματα. Παρακάμψτε τις δημοφιλείς πλατφόρμες και χρησιμοποιήστε το σύστημα online κρατήσεων ή το τηλέφωνο μας για να εξασφαλίσετε 100% την καλύτερη τιμή.</p>
+                        <p><img width="20" height="20" src="https://img.icons8.com/small/32/000000/phone.png" alt="phone"/> <b>καλέστε τώρα: 178-965-4321 </b> </p>
+
+                </div>
+                
+                <div>
+                 <form>
+                  
+                    <h2>το όνομα σας</h2>
+                    <input id="text" type="text" placeholder="FullName" required>
+                    <h2>e-mail</h2>
+                    <input id="email"type="email" placeholder="e-mail" required>
+                    <h2>Μήνυμα</h2>
+                   <input id="message" type="message"placeholder="message">
+                   <input id ="submit" type="submit" value="ΥΠΟΒΟΛΗ">
+                   
+           
+
+
+                  </form>
+                 <div>
+                
+
+               
+            </section>
+      </main>
+
+       <footer>
+        <div>
+            <img src="./images/LOGOFINAL2.jpg" alt="">
+            <p>Ακαδημίας 24, 106 71, Αθήνα <br>
+            Διατηρούνται όλα τα δικαιώματα 2023</p>
+        </div>
+        <div>
+            <h3>Χρήσιμα λινκ</h3>
+            <a href="#">Πληροφορίες</a>
+            <a href="#">Επικοινωνία</a>
+            <a href="#">Όροι χρήσης</a>
+            <a href="#">Ιδιωτικότητα</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>εγγραφείτε για  να μαθαίνετε τα τελευταία νέα μας.</p>
+            <form id = "newsletter">
+                <input type="email" value = "" placeholder="e-mail">
+                <input type="submit" value="Αποστολή">
+            </form>
+        </div>
+       </footer>
+  </body>
+</html>

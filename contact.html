@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "./css/main.css">
+     <link rel="stylesheet" href="./css/contact.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+     <script src="./js/main.js"></script> 
+
+    <title>Document</title>
+</head>
+<div id = "wrapper">
+    <header>
+        <div id = "top-logo">
+            <a href="home.html"><img src="./images/LOGOFINAL2.jpg" alt=""></a>
+        <p class = "colored-text"><img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> Ξενοδοχείο Boutique <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/></p>
+        <nav class="main-menu">
+            <a href="home.html">ΑΡΧΙΚΗ</a>
+            <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+            <a href="dinner.html">ΔΕΙΠΝΟ</a>
+            <a href="./prices.html">ΤΙΜΕΣ</a>
+            <a href="./reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+            <a class = "active" href="./contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+        </nav>
+
+        <nav class = "dropdown-menu">
+            <span onclick = "getDropDownMenu()">☰</span>
+        </nav>
+        <nav class = "hidden-menu">
+            <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+            <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+            <a href="dinner.html">ΔΕΙΠΝΟ</a>
+            <a href="prices.html">ΤΙΜΕΣ</a>
+            <a href="reservation.html">ΚΡΑΤΗΣΕΙΣ</a>
+            <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+        </nav>
+    </header>
+    <main>
+        <section class = "contact">
+
+
+            <div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.9393369720606!2d23.7369336!3d37.97854499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd38e4902433%3A0x3af3bc6711c658a1!2sAkadimias%2024%2C%20Athina%20106%2071!5e0!3m2!1sen!2sgr!4v1704363833718!5m2!1sen!2sgr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div> 
+
+            
+               <div> <h2>ΕΠΙΚΟΙΝΩΝΗΣΤΕ<br>ΜΑΖΙ ΜΑΣ</h2>
+                <p class = "colored-text">Περιμένουμε τις κρατήσεις σας</p>
+                <h3>Ξενοδοχείο Magnius</h3>
+                <p class="grey"> Ακαδημίας 24, 106 71, Αθήνα </p>
+                <h3>Αριθμός Τηλεφώνου</h3>
+                <p class="grey">198-765-4321</p>
+                <h3>Email</h3>
+                <p class="grey">demo@webnode.com </p>
+
+            </div>
+             </section>
+
+        
+    </main>
+
+    <footer>
+        <div>
+            <img src="./images/LOGOFINAL2.jpg" alt="">
+            <p>Ακαδημίας 24, 106 71, Αθήνα <br>
+            Διατηρούνται όλα τα δικαιώματα 2023</p>
+        </div>
+        <div>
+            <h3>Χρήσιμα λινκ</h3>
+            <a href="#">Πληροφορίες</a>
+            <a href="#">Επικοινωνία</a>
+            <a href="#">Όροι χρήσης</a>
+            <a href="#">Ιδιωτικότητα</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>εγγραφείτε για  να μαθαίνετε τα τελευταία νέα μας.</p>
+            <form id = "newsletter">
+                <input type="email" value = "" placeholder="e-mail">
+                <input type="submit" value="Αποστολή">
+            </form>
+        </div>
+    </footer>
+<body>
+    
+</body>
+</html>

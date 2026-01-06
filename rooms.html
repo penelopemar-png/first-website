@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/main.js"></script> 
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div id = "wrapper">
+        <header>
+            <div id = "top-logo">
+                <a href="home.html"><img src="./images/LOGOFINAL2.jpg" alt=""></a>
+            </div>
+            <p class = "colored-text"><img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> Ξενοδοχείο Boutique <img width="40" height="20" src="https://img.icons8.com/office/40/000000/horizontal-line.png" alt="horizontal-line"/> </p>
+            <nav class="main-menu" >
+                <a href="home.html">ΑΡΧΙΚΗ</a>
+                <a class = "active" href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="./prices.html">ΤΙΜΕΣ</a>
+                <a href="./reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="./contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+            <nav class = "dropdown-menu">
+                <span onclick = "getDropDownMenu()">☰</span>
+            </nav>
+            <nav class = "hidden-menu">
+                <a class = "active" href="home.html">ΑΡΧΙΚΗ</a>
+                <a href="rooms.html">ΔΩΜΑΤΙΑ</a>
+                <a href="dinner.html">ΔΕΙΠΝΟ</a>
+                <a href="prices.html">ΤΙΜΕΣ</a>
+                <a href="reservations.html">ΚΡΑΤΗΣΕΙΣ</a>
+                <a href="contact.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class = "two-boxes">
+                <div>
+                    <img src="./images/rooms-a.jpg" alt="">
+                </div>
+                <div>
+                    <h2>ΠΡΟΤΕΙΝΟΜΕΝΑ ΔΩΜΑΤΙΑ</h2>
+                    <p class = "colored-text">Μονόκλινα και δίκλινα δωμάτια</p>
+                    <p class="grey"> Το Classic Μονόκλινο Δωμάτιο έχει σχεδιαστεί για να προσφέρει στον επισκέπτη μια αξέχαστη εμπειρία διαμονής, ενώ η επίπλωση του εξυπηρετεί τις ανάγκες του σύγχρονου ταξιδιώτη. Απολαύστε την υπέροχη θέα της πόλης αλλά και παροχές όπως δωρεάν Wi-Fi, επίπεδη τηλεόραση με δορυφορικά κανάλια, αυτόνομο κλιματισμό και μηχανή παρασκευής για τσάι και καφέ..</p>
+                    <p class="grey">Ωρα Αφιξης: 14:30
+                                   Ωρα Αναχώρησης: 11:00</p>
+                </div>
+            </section>
+
+            <section class = "three-images">
+                <img src="./images/home-a.jpg" alt="">
+                <img src="./images/home-b.jpg" alt="">
+                <img src="./images/home-c.jpg" alt="">
+            </section>
+
+            <section class = "two-boxes">
+                <div>
+                    <h2>ΣΟΥΙΤΕΣ</h2>
+                    <p class = "colored-text">Περισσότερος χώρος, περισσότερη άνεση</p>
+                    <p class="grey">Ανακαλύψτε τα 16 δωμάτια και σουίτες του Altar Suites, τα οποία προσκαλούν τους επισκέπτες να χαλαρώσουν μετά από μια έντονη ημέρα απολαμβάνοντας την θέα της πόλης. Εξισορροπώντας το παρελθόν και το παρόν και σχεδιασμένα με προσοχή στη λεπτομέρεια, το καθένα προσφέρει μια ξεχωριστή εμπειρία διαμονής τόσο δελεαστική όσο η ίδια η πόλη. Οι λευκοί εσωτερικοί χώροι και οι μικρές πινελιές με έντονα χρώματα δημιουργούν ένα περιβάλλον ζεστό, γαλήνιο και φιλόξενο.</p>
+                    <p class="grey">Ο κομψός και μοντέρνος σχεδιασμός προσφέρει μια υπερπολυτελή μίνιμαλ αισθητική σε κάθε χώρο. Όλα τα δωμάτια είναι φωτεινά και ευρύχωρα, προσφέροντας ένα εντυπωσιακό σκηνικό με θέα την πόλη και την Ακρόπολη.</p>
+                </div>
+                <div>
+                    <img src="./images/rooms-b.jpg" alt="">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <img src="./images/LOGOFINAL2.jpg" alt="">
+                <p>Ακαδημίας 24, 106 71, Αθήνα <br>
+                Διατηρούνται όλα τα δικαιώματα 2023</p>
+            </div>
+            <div>
+                <h3>Χρήσιμα λινκ</h3>
+                <a href="#">Πληροφορίες</a>
+                <a href="#">Επικοινωνία</a>
+                <a href="#">Όροι χρήσης</a>
+                <a href="#">Ιδιωτικότητα</a>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>εγγραφείτε για  να μαθαίνετε τα τελευταία νέα μας.</p>
+                <form id = "newsletter">
+                    <input type="email" value = "" placeholder="e-mail">
+                    <input type="submit" value="Αποστολή">
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

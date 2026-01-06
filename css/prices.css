@@ -1,0 +1,35 @@
+
+
+div.prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+ 
+
+    .text-center {
+        text-align: center;
+    }
+
+    
+p.border-bottom{
+    border-bottom:solid thin rgb(174, 174, 174);
+    color: #888;
+    
+    padding-bottom:1rem;
+}
+
+
+
+section{
+
+    margin-bottom: 30px;
+}
+
+
+    
+    
+    
+
+
+

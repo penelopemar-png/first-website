@@ -1,0 +1,49 @@
+section.contact{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+
+section.contact>div:nth-child(1){
+ 
+    width:65%;
+    
+    
+    
+}
+
+section.contact>div:nth-child(2){
+
+    width:30%;
+ }
+
+section.contact>div>iframe{
+width:100%;
+height: 100%;
+  
+}
+
+
+section.contact>div>h3{
+
+    color: 
+    rgb(67, 67, 67); 
+    font-size: 1rem;
+    font-weight:bold;
+}
+section.contact>div>h2{
+    font-size:30px;
+    
+}
+@media screen and (max-width: 600px) {
+    section.contact div:nth-child(1) {
+        width: 100%;
+    }
+
+    section.contact div:nth-child(2) {
+        width: 100%;
+    }
+}

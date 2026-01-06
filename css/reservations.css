@@ -1,0 +1,92 @@
+
+section.two-boxes{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.two-boxes > div{
+    width: 45%;
+    font-size: 28px;
+    margin-bottom: 20px;    
+
+}
+
+section.two-boxes>div>form{
+    margin-top: 10px;
+   
+}
+
+section.two-boxes>div>p>b{
+
+    color: rgb(102, 102, 102); 
+    font-size: 19px;
+    
+}
+
+section.two-boxes>div>form {
+    
+    width: 450px;
+    background-color: white;
+    
+    
+}
+section.two-boxes>div>form>input{
+    display: block;
+    border: solid thin lightgray;
+    margin-bottom: 10px;
+    padding:15px;
+    width: 100%;
+    transition: all 0.5s;
+  
+
+    
+}
+section.two-boxes>div>form>input#email:focus{
+    background-color:rgba(255, 244, 244, 0.402) ;
+} 
+
+
+section.two-boxes>div>form>input#text:focus{
+   background-color: rgba(255, 244, 244, 0.402);
+}
+    
+section.two-boxes>div>form>h2{
+ color:rgb(102, 102, 102); 
+  font-size:18px
+ }
+
+ section.two-boxes>div>form>input#message:focus{
+    background-color: rgba(255, 244, 244, 0.402); 
+
+        padding-bottom: 80px;}
+        
+section.two-boxes>div>form>input#submit{
+      width: 50%;
+      background-color: white;
+      border: solid thin rgb(217, 181, 105);
+      letter-spacing: 2px;
+      font-size: 10px;
+      transition: all 0.5s;
+      display: inline block;
+      margin-top:1rem;
+           
+}
+
+section.two-boxes>div>form>input#submit:hover{
+
+ border-color: rgb(34, 34, 34);
+  cursor:pointer;
+        
+}
+        
+      
+section.two-boxes>div>form>input:hover{
+
+        border-color: rgb(34, 34, 34);
+}
+       
+       
+   
+
+        

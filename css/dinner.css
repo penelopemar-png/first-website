@@ -1,0 +1,26 @@
+
+section.two-images
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section.two-images >img {
+    width: 48%;
+    padding-bottom: 15px;
+}
+section.two-boxes{
+    margin-bottom:30px ;
+}
+
+    section.two-boxes>div>h2{
+
+        font-size: 30px;
+    }
+   
+
+
+
+
